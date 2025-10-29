@@ -19,3 +19,51 @@ git clone https://github.com/TheVoronModder/i3-Quick-Start.git i3-quick-start
 cd i3-quick-start
 chmod +x install.sh uninstall.sh
 ./install.sh
+```
+## ❌ Uninstallation
+
+```bash ~/printer_data/config/i3-quick-start/uninstall.sh```
+🪄 How to Use
+
+After installation and a restart, simply run:
+
+INITIAL_SETUP
+
+
+That launches the interactive 5-step wizard:
+
+Gantry Leveling (Z_TILT_ADJUST or QGL)
+
+Bed Mesh Calibration
+
+Pressure Advance
+
+Choose Auto PA Sweep or Manual PA Test
+
+Input Shaper Calibration
+
+Runs Beacon Touch auto-calibration for X/Y
+
+Saves and finishes
+
+🧠 Optional Macros
+🔹 Auto Pressure Advance
+STEP_PA_AUTO START=0.00 END=0.12 STEP=0.01 HOTEND=220 BED=60
+
+
+Runs a PA sweep and prompts to apply the midpoint value.
+
+🔹 Manual Pressure Advance
+STEP_PA
+
+
+Pauses for you to print a PA test file manually.
+
+🔹 Animated UI
+ANIM_START STYLE=bar TEXT="Calibrating..."
+ANIM_STOP
+
+🔹 KlipperScreen Notifications
+KS_NOTIFY TITLE="Info" MSG="Calibration Done" DUR=5
+
+
