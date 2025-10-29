@@ -6,7 +6,13 @@ This build is **silent** (no buzzer required) and Beacon Touch–ready for Input
 
 ## Install (one-liner on your printer)
 ```bash
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/TheVoronModder/i3-wizard/main/install.sh)"
+cd ~/printer_data/config
+rm -rf i3-wizard
+git clone https://github.com/TheVoronModder/i3-wizard.git
+cd i3-wizard
+chmod +x install.sh uninstall.sh
+./install.sh
+
 ```
 
 > Override if you fork:
