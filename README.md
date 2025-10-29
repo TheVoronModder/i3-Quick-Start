@@ -8,7 +8,13 @@ This project provides a fully automated setup wizard for i3-style Klipper printe
 It integrates with **KlipperScreen**, shows **animated UI prompts**, and provides a step-by-step setup:  
 **Level → Mesh → Pressure Advance (Auto or Manual) → Input Shaper → Save**
 
-Built for **Danger Klipper Bleeding Edge v2**, Beacon Touch compatibility, and **silent systems (no buzzer required)**.
+Built for **Danger Klipper Bleeding Edge v2**, Beacon Touch compatibility.
+
+If you do not have Kalico Bleeding Edge v2 installed this is the Kalico website linking directly to the instructions:
+
+https://docs.kalico.gg/Migrating_from_Klipper.html
+
+Make sure you reflash your MCU to take full advantage of all the goodies otherwise the **i3-Quick-Start Wizard** will throw alot of errors. 
 
 ---
 
