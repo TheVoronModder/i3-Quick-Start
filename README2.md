@@ -178,7 +178,7 @@ MIT License. You may freely modify and distribute this package with attribution.
 
 ## 👨‍🔧 Author
 
-Developed by **Kyle Nyberg** as part of the Fathom Design Engineering project suite.
+Developed by **TheVoronModder** as part of the Fathom Design Engineering project suite.
 
 ---
 
