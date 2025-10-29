@@ -1,4 +1,4 @@
-\
+
 # i3-wizard (KlipperScreen Wizard — DK BE v2, Silent)
 
 Animated KlipperScreen prompts and a one-click calibration wizard for i3-style printers, designed for **Danger Klipper Bleeding Edge v2**. 
