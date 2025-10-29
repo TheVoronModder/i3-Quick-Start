@@ -33,17 +33,7 @@ After installation and a restart, simply run:
 
 That launches the interactive 5-step wizard:
 
-```Gantry Leveling (Z_TILT_ADJUST or QGL)```
-
-```Bed Mesh Calibration```
-
-```Pressure Advance```
-
-```Choose Auto PA Sweep or Manual PA Test```
-
-Input Shaper Calibration
-
-Runs Beacon Touch auto-calibration for X/Y
+**Level → Mesh → Pressure Advance (Auto or Manual) → Input Shaper → Save**
 
 Saves and finishes
 
