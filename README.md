@@ -24,10 +24,12 @@ SSH into your printer (Fluidd, Mainsail, or terminal) and run:
 
 ```bash
 cd ~/printer_data/config
+rm -rf i3-quick-start
 git clone https://github.com/TheVoronModder/i3-quick-start.git i3-quick-start
 cd i3-quick-start
 chmod +x install.sh uninstall.sh
 ./install.sh
+
 
 ```
 
