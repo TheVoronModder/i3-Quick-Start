@@ -121,7 +121,7 @@ i3-quick-start/
 ---
 
 ## 🧱 Credits
-Developed by **TheVoronModder**  
+Developed by **TheVoronModder** (learning python as I go)
 Optimized for **Beacon Touch + DK BE v2** with support for **FDE Inertia Cube i3 Platform**
 
 MIT License © 2025
