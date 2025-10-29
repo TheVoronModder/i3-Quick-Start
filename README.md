@@ -24,7 +24,7 @@ SSH into your printer (Fluidd, Mainsail, or terminal) and run:
 
 ```bash
 cd ~/printer_data/config
-git clone https://github.com/TheVoronModder/i3-Quick-Start.git i3-quick-start
+git clone https://github.com/<you>/i3-quick-start.git i3-quick-start
 cd i3-quick-start
 chmod +x install.sh uninstall.sh
 ./install.sh
@@ -42,7 +42,9 @@ The installer:
 
 To cleanly remove it:
 ```bash
-bash ~/printer_data/config/i3-quick-start/uninstall.sh
+cd ~/printer_data/config/i3-quick-start
+./uninstall.sh
+
 ```
 
 The uninstaller:
