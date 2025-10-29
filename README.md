@@ -23,22 +23,23 @@ chmod +x install.sh uninstall.sh
 ## ❌ Uninstallation
 
 ```bash ~/printer_data/config/i3-quick-start/uninstall.sh```
+
 🪄 How to Use
 
 After installation and a restart, simply run:
 
-INITIAL_SETUP
+```INITIAL_SETUP```
 
 
 That launches the interactive 5-step wizard:
 
-Gantry Leveling (Z_TILT_ADJUST or QGL)
+```Gantry Leveling (Z_TILT_ADJUST or QGL)```
 
-Bed Mesh Calibration
+```Bed Mesh Calibration```
 
-Pressure Advance
+```Pressure Advance```
 
-Choose Auto PA Sweep or Manual PA Test
+```Choose Auto PA Sweep or Manual PA Test```
 
 Input Shaper Calibration
 
